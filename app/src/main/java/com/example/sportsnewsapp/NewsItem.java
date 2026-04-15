@@ -1,0 +1,38 @@
+package com.example.sportsnewsapp;
+
+public class NewsItem {
+    private String title;
+    private String description;
+    private int imageResId;
+    private String category;
+    private boolean isFeatured;
+
+    public NewsItem(String title, String description, int imageResId, String category, boolean isFeatured) {
+        this.title = title;
+        this.description = description;
+        this.imageResId = imageResId;
+        this.category = category;
+        this.isFeatured = isFeatured;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public int getImageResId() {
+        return imageResId;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public boolean isFeatured() {
+        return isFeatured;
+    }
+
+}
